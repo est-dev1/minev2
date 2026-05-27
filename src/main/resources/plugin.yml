@@ -1,0 +1,11 @@
+name: ClientTracker
+version: 1.0.0
+main: com.example.clienttracker.ClientTrackerPlugin
+api-version: 1.20
+description: Detects player client brand and resource pack status, notifies admins in chat.
+authors: [est-dev1]
+
+permissions:
+  clienttracker.notify:
+    description: Receive client brand and resource pack status alerts in chat.
+    default: op
